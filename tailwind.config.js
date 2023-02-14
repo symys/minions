@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         fredoka: ['Fredoka One'],
+        concert: ['Concert One']
       },
     },
   },

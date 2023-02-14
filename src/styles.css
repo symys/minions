@@ -3,8 +3,13 @@
 @tailwind components;
 
 @font-face {
-    font-family: 'Fredoka One';
-    src:  url("./app/fonts/FredokaOne-Regular.ttf");
-  }
+  font-family: "Fredoka One";
+  src: url("./app/fonts/FredokaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Concert One";
+  src: url("./app/fonts/ConcertOne-Regular.ttf");
+}
 
 @tailwind utilities;
