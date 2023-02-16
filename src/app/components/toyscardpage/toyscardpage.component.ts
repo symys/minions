@@ -1,14 +1,6 @@
 // import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import toysInfo from '/home/seymademir/Development/angular/minions/db.json';
-
-// interface Toy {
-//   id: Number;
-//   name: String;
-//   desciption: String;
-//   price: Number;
-//   imgSrc: String;
-// }
 
 @Component({
   selector: 'app-toyscardpage',
