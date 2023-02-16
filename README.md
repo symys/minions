@@ -1,6 +1,6 @@
 # Minions
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.<br> <br>
 Link to the design of the project [https://www.behance.net/gallery/159360551/Letoy-Toy-Store-Landing-Page-Design]
 
 ## Development server
