@@ -9,6 +9,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ShoplistComponent } from './components/shoplist/shoplist.component';
 import { ToyscardpageComponent } from './components/toyscardpage/toyscardpage.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { ToyscardpageComponent } from './components/toyscardpage/toyscardpage.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

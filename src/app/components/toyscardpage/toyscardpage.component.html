@@ -1,17 +1,20 @@
 <div>
     <div>
-        <div class="pt-20 flex justify-evenly pl-16 pr-16">
+        <div class="pt-20 flex justify-evenly pl-40 pr-40">
            <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838] py-4 px-4 rounded-full w-36 text-base tracking-widest  ">All Minions</button>
-        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-36 text-base tracking-widest  ">Stuart</button>
-        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-36 text-base tracking-widest  ">Phil</button>
-        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-36 text-base tracking-widest  ">Kevin</button>
-        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-36 text-base tracking-widest  ">Tim</button>
-        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-36 text-base tracking-widest  ">Dave</button> 
-        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-36 text-base tracking-widest  ">Carl</button>
-        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-36 text-base tracking-widest  ">Bob</button> 
+        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-28 text-base tracking-widest  ">Stuart</button>
+        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-28 text-base tracking-widest  ">Phil</button>
+        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-28 text-base tracking-widest  ">Kevin</button>
+        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-28 text-base tracking-widest  ">Tim</button>
+        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-28 text-base tracking-widest  ">Dave</button> 
+        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-28 text-base tracking-widest  ">Carl</button>
+        <button class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838]  py-4 px-4 rounded-full w-28 text-base tracking-widest  ">Bob</button> 
         </div>
         
       
     </div>
-    <div>card section</div>
+    <div *ngFor="let item of toysInfo">
+        <div>{{item.name}}</div>
+        <img src={{item.imgSrc}} alt="hey"/>
+    </div>
 </div>
