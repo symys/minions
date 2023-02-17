@@ -8,8 +8,9 @@ import toysInfo from '/home/seymademir/Development/angular/minions/db.json';
   styleUrls: ['./toyscardpage.component.css'],
 })
 export class ToyscardpageComponent {
-  toys= toysInfo;
+  toys= toysInfo.minions;
 
+  minionsNames = ["Stuart", "Phil", "Kevin", "Tim", "Dave", "Carl", "Bob"]
   //  public constructor() {}
   //  public ngOnInit(): void {
   //   const url: string = 'http://localhost:3000/minions/';

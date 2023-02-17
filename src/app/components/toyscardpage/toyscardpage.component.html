@@ -6,45 +6,17 @@
       >
         All Minions
       </button>
-      <button
+      
+      <button *ngFor="let minion of minionsNames"
         class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838] py-4 px-4 rounded-full w-28 text-base tracking-widest"
       >
-        Stuart
+        {{minion}}
       </button>
-      <button
-        class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838] py-4 px-4 rounded-full w-28 text-base tracking-widest"
-      >
-        Phil
-      </button>
-      <button
-        class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838] py-4 px-4 rounded-full w-28 text-base tracking-widest"
-      >
-        Kevin
-      </button>
-      <button
-        class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838] py-4 px-4 rounded-full w-28 text-base tracking-widest"
-      >
-        Tim
-      </button>
-      <button
-        class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838] py-4 px-4 rounded-full w-28 text-base tracking-widest"
-      >
-        Dave
-      </button>
-      <button
-        class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838] py-4 px-4 rounded-full w-28 text-base tracking-widest"
-      >
-        Carl
-      </button>
-      <button
-        class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838] py-4 px-4 rounded-full w-28 text-base tracking-widest"
-      >
-        Bob
-      </button>
+      
     </div>
   </div>
   <div class="flex flex-row flex-wrap justify-evenly gap-10 pl-24 pr-24">
-    <div *ngFor="let item of toys.minions">
+    <div *ngFor="let item of toys">
     
       <div class="flex flex-col w-40 mt-10 bg-white rounded-lg items-center">
         <div>{{ item.desciption }}</div>
