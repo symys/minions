@@ -154,7 +154,7 @@ export class ToyscardpageComponent {
     {
         "id":19,
         "name":"Tim",
-        "desciption": "Wise Stuart",
+        "desciption": "Wise Tim",
         "price": 16.00,
         "imgSrc":"assets/images/minion-images/tim/wisetim.png"
     }
