@@ -1,6 +1,6 @@
 <div>
   <div>
-    <div class="pt-20 flex justify-evenly pl-40 pr-40">
+    <div class="pt-20 flex justify-evenly pl-56 pr-56">
       <button
         class="bg-[#FEE36E] hover:text-white hover:bg-[#212838] text-[#212838] py-4 px-4 rounded-full w-36 text-base tracking-widest"
       >
@@ -15,19 +15,19 @@
       
     </div>
   </div>
-  <div class="flex flex-row flex-wrap justify-evenly gap-10 pl-24 pr-24">
+  <div class="flex flex-row flex-wrap justify-evenly gap-14 pl-24 pr-24">
     <div *ngFor="let item of minions">
     
-      <div class="flex flex-col w-80 h-[24em] mt-10 bg-white rounded-lg items-center justify-between">
-        <img src="{{ item.imgSrc }}" alt="hey" class="h-72 mt-4" />
-        <div class="bg-[#212838] p-2 m-2 rounded-lg w-full max-w-[95%] flex lg:flex-row flex-col justify-between">
+      <div class="flex flex-col w-[24em] h-[28em] mt-10 bg-white rounded-lg items-center justify-between">
+        <img src="{{ item.imgSrc }}" alt="hey" class="h-[22em] mt-2" />
+        <div class="bg-[#212838] p-3 m-2 rounded-lg w-full max-w-[95%] flex lg:flex-row flex-col justify-between">
           <div>
             <div class="text-white flex tracking-wider">{{ item.desciption }}</div>
           <div class="text-[#FFD200] self-center text-xl tracking-wider" >Price: {{ item.price }} $</div>
           </div>
           <div class="self-center">
             <button
-        class="bg-[#FEE36E] text-sm hover:text-[#212838] hover:bg-white text-[#212838] py-2 px-2 rounded-lg text-base tracking-widest"
+        class="hover:opacity-100 bg-[#FEE36E] opacity-90 text-sm text-[#212838] py-3 px-2 rounded-lg text-lg tracking-wider"
       >
         Add Card
       </button>

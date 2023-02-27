@@ -20,10 +20,10 @@ export class ToyscardpageComponent {
   minions=[
     {
         "id":0,
-        "name":"Bob",
-        "desciption": "Bob with Bear",
-        "price": 13.00,
-        "imgSrc":"assets/images/minion-images/bob/bobwithtoy.png"
+        "name":"Dave",
+        "desciption": "Mocking Dave",
+        "price": 14.00,
+        "imgSrc":"assets/images/minion-images/dave/mockingdave.png"
     },
     {
         "id":1,
@@ -48,45 +48,45 @@ export class ToyscardpageComponent {
     },
     {
         "id":4,
-        "name":"Carl",
-        "desciption": "Announcement Carl",
-        "price": 15.00,
-        "imgSrc":"assets/images/minion-images/carl/justcarl.png"
+        "name":"Kevin",
+        "desciption": "Vacation Kevin",
+        "price": 16.00,
+        "imgSrc":"assets/images/minion-images/kevin/holidaykevin.png"
     },
     {
         "id":5,
-        "name":"Dave",
-        "desciption": "Happy Dave",
-        "price": 12.00,
-        "imgSrc":"assets/images/minion-images/dave/happydave.png"
+        "name":"Stuart",
+        "desciption": "Guitarist Stuart",
+        "price": 17.00,
+        "imgSrc":"assets/images/minion-images/stuart/guitariststuart.png"
     },
     {
         "id":6,
-        "name":"Dave",
-        "desciption": "Mocking Dave",
-        "price": 14.00,
-        "imgSrc":"assets/images/minion-images/dave/mockingdave.png"
+        "name":"Bob",
+        "desciption": "Bob with Bear",
+        "price": 13.00,
+        "imgSrc":"assets/images/minion-images/bob/bobwithtoy.png"
     },
     {
         "id":7,
-        "name":"Dave",
-        "desciption": "Confused Dave",
-        "price": 13.00,
-        "imgSrc":"assets/images/minion-images/dave/saddave.png"
-    },
-    {
-        "id":8,
-        "name":"Dave",
-        "desciption": "Smiling Dave",
-        "price": 13.00,
-        "imgSrc":"assets/images/minion-images/dave/smiledave.png"
-    },
-    {
-        "id":9,
         "name":"Kevin",
         "desciption": "Annoyed Kevin",
         "price": 14.00,
         "imgSrc":"assets/images/minion-images/kevin/annoyedkevin.png"
+    },
+    {
+        "id":8,
+        "name":"Phil",
+        "desciption": "Happy Phil",
+        "price": 12.00,
+        "imgSrc":"assets/images/minion-images/phil/happyphil.png"
+    },
+    {
+        "id":9,
+        "name":"Dave",
+        "desciption": "Confused Dave",
+        "price": 13.00,
+        "imgSrc":"assets/images/minion-images/dave/saddave.png"
     },
     {
         "id":10,
@@ -97,10 +97,10 @@ export class ToyscardpageComponent {
     },
     {
         "id":11,
-        "name":"Kevin",
-        "desciption": "Vacation Kevin",
-        "price": 16.00,
-        "imgSrc":"assets/images/minion-images/kevin/holidaykevin.png"
+        "name":"Carl",
+        "desciption": "Announcement Carl",
+        "price": 15.00,
+        "imgSrc":"assets/images/minion-images/carl/justcarl.png"
     },
     {
         "id":12,
@@ -111,10 +111,10 @@ export class ToyscardpageComponent {
     },
     {
         "id":13,
-        "name":"Phil",
-        "desciption": "Happy Phil",
-        "price": 12.00,
-        "imgSrc":"assets/images/minion-images/phil/happyphil.png"
+        "name":"Stuart",
+        "desciption": "Vampire Stuart",
+        "price": 17.00,
+        "imgSrc":"assets/images/minion-images/stuart/vampirestuart.png"
     },
     {
         "id":14,
@@ -125,17 +125,17 @@ export class ToyscardpageComponent {
     },
     {
         "id":15,
-        "name":"Phil",
-        "desciption": "Phil with Idea",
-        "price": 14.00,
-        "imgSrc":"assets/images/minion-images/phil/studentphil.png"
+        "name":"Tim",
+        "desciption": "Wise Tim",
+        "price": 16.00,
+        "imgSrc":"assets/images/minion-images/tim/wisetim.png"
     },
     {
         "id":16,
-        "name":"Stuart",
-        "desciption": "Guitarist Stuart",
-        "price": 17.00,
-        "imgSrc":"assets/images/minion-images/stuart/guitariststuart.png"
+        "name":"Dave",
+        "desciption": "Happy Dave",
+        "price": 12.00,
+        "imgSrc":"assets/images/minion-images/dave/happydave.png"
     },
     {
         "id":17,
@@ -146,17 +146,24 @@ export class ToyscardpageComponent {
     },
     {
         "id":18,
-        "name":"Stuart",
-        "desciption": "Vampire Stuart",
-        "price": 17.00,
-        "imgSrc":"assets/images/minion-images/stuart/vampirestuart.png"
+        "name":"Dave",
+        "desciption": "Smiling Dave",
+        "price": 13.00,
+        "imgSrc":"assets/images/minion-images/dave/smiledave.png"
     },
     {
         "id":19,
-        "name":"Tim",
-        "desciption": "Wise Tim",
-        "price": 16.00,
-        "imgSrc":"assets/images/minion-images/tim/wisetim.png"
+        "name":"Phil",
+        "desciption": "Phil with Idea",
+        "price": 14.00,
+        "imgSrc":"assets/images/minion-images/phil/studentphil.png"
+    },
+    {
+        "id":20,
+        "name":"Bob",
+        "desciption": "Shy Bob",
+        "price": 14.00,
+        "imgSrc":"assets/images/minion-images/bob/shybob.png"
     }
 
 ]
